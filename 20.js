@@ -1,5 +1,5 @@
 //object
-
+const key = 'email'
 const person = {
     name: 'Nitesh',
     age: 22,
@@ -9,4 +9,7 @@ const person = {
 console.log(person.hobbies)
 
 person.gender = 'male'
+console.log(person)
+
+person[key] = 'thenitesh143@gmail.com'
 console.log(person)
